@@ -1,0 +1,28 @@
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+.cxx
+local.properties
+
+# Android / Gradle
+.gradle/
+/local.properties
+/.idea
+/build
+*/build
+/captures
+.externalNativeBuild
+
+# Kotlin / Java
+*.iml
+*.class
+
+# Keystore
+*.jks
+
+# Gradle wrapper
+.gradle

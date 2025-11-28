@@ -12,11 +12,14 @@ compose-compiler = "1.5.14"         # kotlinCompilerExtensionVersion (ajusta si 
 junit = "4.13.2"
 androidx-junit = "1.1.5"
 espresso-core = "3.5.1"
+firebase-components = "19.0.0"
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
 kotlin-android     = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 #kotlin-compose     = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt" }
+hilt-android = { id = "com.google.dagger.hilt.android", version = "2.51" }
 
 [libraries]
 # Core AndroidX (las claves usan guiones y por eso se acceden como libs.androidx.core.ktx)
@@ -40,3 +43,4 @@ androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-mani
 junit                           = { module = "junit:junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+firebase-components = { group = "com.google.firebase", name = "firebase-components", version.ref = "firebase-components" }
